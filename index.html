@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!-- Head --->
+<head>
+    <title>Flappy Bird</title>
+    <var id="version" class="version">1</var>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="icon" href="/pacman/favicon.ico" sizes="16x16" type="image/ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<!--- Body --->
+<body>
+
+<!--- Images -->
+<img src="flappy_bird.png" style="visibility: hidden;" id="flappybird">
+<img src="flappy_bird_wing_down.png" style="visibility: hidden;" id="flappybirdwingdown">
+
+<!--- Audio --> 
+
+<h1 id="title" class="centeredtext" style="font-family: 'Press Start 2P', cursive;">Flappy Bird</h1>
+<h2><div id="score" style="text-align: right; font-family: 'Press Start 2P', cursive;"></div></h2>
+<div class="centeredtext"><button onclick="return go()">Go!</button></div>
+<h1 id="error"></h1>
+<div id="cbox" class="centeredtext"><canvas id="grid" width="600px" height="600px" style="border-style: double;"></canvas></div>
+<script src="script2.js"></script>
+</body>

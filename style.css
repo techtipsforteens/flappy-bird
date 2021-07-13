@@ -1,0 +1,15 @@
+:root {
+  --version:1;
+}
+
+.version {
+	display: none;
+}
+
+.centeredtext {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+}
